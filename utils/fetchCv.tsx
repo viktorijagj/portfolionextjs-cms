@@ -1,4 +1,4 @@
-import { sanityClient } from "../lib/sanity";
+import { sanityClient } from "lib/sanity";
 import { groq } from "next-sanity";
 
 export const fetchcv = async ()=> {

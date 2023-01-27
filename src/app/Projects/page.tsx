@@ -1,5 +1,5 @@
 import Project from "./Project";
-import {fetchproject} from "../../../utils/fetchProjects";
+import { fetchproject } from "../../../utils/fetchProjects";
 
 const Projects = async () => {
 
@@ -12,3 +12,4 @@ const Projects = async () => {
 };
 
 export default Projects;
+

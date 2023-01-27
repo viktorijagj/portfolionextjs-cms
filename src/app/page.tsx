@@ -3,7 +3,7 @@
 import Education from './Education'
 import HomeSection from './HomeSection'
 import ProjectsInfo from './ProjectsInfo'
-import {fetchcv} from "../../utils/fetchCv"
+import { fetchcv } from '../../utils/fetchCv'
 
 
 const Home = async () => {

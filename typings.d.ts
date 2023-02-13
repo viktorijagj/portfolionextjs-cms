@@ -14,7 +14,7 @@ interface Image {
 }
 interface Language {
     _id:string;
-    titile:string;
+    title:string;
     skilimg:Image;
 }
 interface Project {

@@ -3,13 +3,9 @@ interface Props{
 }
 export default function Education({cvs}: Props) {
     return (
-      <section id="edducation" className="bg-gray-100 p-32 flex flex-col text-center border-b-4 border-solid border-zinc-700">
-        <h1 className="text-3xl font-bold mb-12">Education - Experience</h1>
-       <div>
-        
-       </div>
-       <div>
-        <div className="grid grid-cols-3 gap-2">
+      <section id="edducation" className="text-gray-900 p-16 pb-32 pt-32 flex flex-col border-b-4 border-solid border-sky-700 text-center">
+        <h1 className="text-3xl md:text-5xl font-bold mb-12">Education - <span className="text-bold text-sky-700">Experience</span></h1>
+        <div className="grid grid-col-1 md:grid-cols-3 gap-2">
          {cvs.map((cv)=> (
           <div key={cv._id} className="bg-gray-200 shadow p-9">
             <div>
@@ -20,7 +16,6 @@ export default function Education({cvs}: Props) {
           </div>
          ))}
     </div>
-        </div> 
       </section>
 
     )
